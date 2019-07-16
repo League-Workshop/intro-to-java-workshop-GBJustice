@@ -10,6 +10,8 @@ public class FlamingNinjaStar {
 		int flameSize = 200;		//the length of the flaming arms
 		
 		// 1. Make a new robot, and set it's pen down.
+		Robot Faze = new Robot("batman");
+		Faze.penDown();
 
 		// *14. Use the methods setX and setY to move the ninja star into the center of the screen
 		
@@ -20,22 +22,31 @@ public class FlamingNinjaStar {
 		// 13. Use a for loop to repeat all of the code below 25 times
 
 			// 2. Turn the robot 1/8 of a circle
+		Faze.turn(1/8*360);
 		
 			// 3. Move the robot 64 pixels
+		Faze.move(64);
 
 			// 4. Turn the robot 40 degrees to the LEFT. (Negative numbers will turn the robot counter-clockwise.)
+		Faze.turn(-40);
 			
 			// 5. Move the robot the distance in the variable flameSize
+		Faze.move(200);
 			
 			// 6. Turn the robot 170 degrees
+		Faze.turn(170);
 			
 			// 7. Move the robot the distance in the variable flameSize (again)
+		Faze.move(flameSize);
 			
 			// 8. Turn the robot 64 degrees to the right
+		Faze.turn(64);
 			
 			// 9. Move the robot the distance in the variable baseSize
+		Faze.move(baseSize);
 			
 			// 10. Check that your shape is the same as Figure 1. This is one arm of the ninja star.
+		
 			
 			// 11. Color your ninja star like Figure 2.
 		
