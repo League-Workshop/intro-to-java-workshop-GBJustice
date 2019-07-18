@@ -12,7 +12,7 @@ public class SpeakAndSpell {
 		speak("Spell fortnite");
 
 		// 2. Catch the user's answer in a String
-		String name = JOptionPane.showInputDialog();
+		String name = JOptionPane.showInputDialog("Hello");
 
 		// 3. If the user spelled the word correctly, speak "correct"
 
